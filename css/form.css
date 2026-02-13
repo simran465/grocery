@@ -1,0 +1,25 @@
+.title {
+  text-align: center;
+  color: var(--primary);
+  margin-bottom: 20px;
+}
+.input-grid {
+  display: grid;
+  grid-template-columns: 1fr 130px 80px;
+  gap: 8px;
+}
+input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+#submit-btn {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#submit-btn.update-mode {
+  background: #f0932b;
+}
