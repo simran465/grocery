@@ -1,0 +1,11 @@
+.list-section {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.empty-msg {
+  text-align: center;
+  color: #999;
+  font-style: italic;
+}
