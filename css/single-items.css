@@ -1,0 +1,38 @@
+.item-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fafafa;
+  padding: 12px;
+  border-radius: 8px;
+}
+.item-row.is-done {
+  opacity: 0.5;
+}
+.item-row.is-done .name-text {
+  text-decoration: line-through;
+}
+.info-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.item-date {
+  font-size: 0.75rem;
+  color: #777;
+  display: block;
+}
+.edit-btn {
+  color: #f0932b;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+.del-btn {
+  color: #eb4d4b;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
